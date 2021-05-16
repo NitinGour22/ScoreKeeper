@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/court"
+    android:layout_margin="25dp"
+    android:padding="10dp"
+    android:gravity="center_vertical|center_horizontal">
+
+    <ImageView
+        android:id="@+id/iv_basket_icon_tf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_basketball"
+        android:contentDescription="@string/iv_description_tf" />
+
+    <EditText
+        android:id="@+id/et_team_one_tf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/squada_one"
+        android:hint="@string/team1_name"
+        android:textAlignment="center"
+        android:textColorHint="@color/team1"
+        android:textSize="36sp"
+        android:padding="20dp"
+        android:autofillHints=""
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/bt_startr_game_tf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/ewing"
+        android:text="@string/start_game"
+        android:textSize="36sp"
+        android:fontFamily="@font/squada_one"
+        android:layout_margin="20dp"
+        android:padding="20dp"
+        app:cornerRadius="20dp" />
+
+    <EditText
+        android:id="@+id/et_team_two_tf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/squada_one"
+        android:hint="@string/team1_name"
+        android:textAlignment="center"
+        android:textColorHint="@color/team2"
+        android:textSize="36sp"
+        android:padding="20dp"
+        android:autofillHints=""
+        android:inputType="text" />
+
+    <ImageView
+        android:id="@+id/iv_basket_icon_bottom_tf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_basketball"
+        android:contentDescription="@string/iv_description_tf" />
+
+
+</LinearLayout>

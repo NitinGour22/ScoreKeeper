@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Score Keeper</string>
+    <string name="iv_description_tf">A basketball icon</string>
+    <string name="team1_name">Enter Team Name</string>
+    <string name="start_game">Start Game</string>
+    <string name="new_game">New Game</string>
+    <string name="team_final_score">Team Final Score</string>
+    <string name="team_total_score">Team Final Score</string>
+    <string name="team_two_final_score">Team Final Score</string>
+    <string name="team_name1">Team Name</string>
+    <string name="team_name2">Team Name</string>
+    <string name="score">0</string>
+    <string name="q1">Q1</string>
+    <string name="q2">Q2</string>
+    <string name="q3">Q3</string>
+    <string name="q4">Q4</string>
+    <string name="percentage_placeholder">Shooting Percentage</string>
+    <string name="team_shooting_percentage">0 %</string>
+    <string name="bt_ft">Free Throw</string>
+    <string name="bt_2ptt">2 pt</string>
+    <string name="bt_3pt">3 pt</string>
+    <string name="bt_mshot"> Missed shot</string>
+    <string name="bt_end">End Game</string>
+</resources>
