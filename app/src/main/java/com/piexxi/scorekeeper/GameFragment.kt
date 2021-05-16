@@ -50,6 +50,19 @@ class GameFragment : Fragment() {
         binding.btMissedShotTeam2.setOnClickListener { teamTwoSHoot(0) }
 
         binding.btEndGame.setOnClickListener { nextFragment() }
+
+        binding.radioGroup2.setOnCheckedChangeListener { group, checkedId ->
+            when (checkedId) {
+                R.id.rb_q1 ->
+                    binding.rbQ1.isEnabled = false
+                R.id.rb_q2 ->
+                    binding.rbQ2.isEnabled = false
+                R.id.rb_q3 ->
+                    binding.rbQ3.isEnabled = false
+                R.id.rb_q4 ->
+                    binding.rbQ4.isEnabled = false
+            }
+        }
     }
 
     private fun teamOneSHoot(pointValue: Int) {
